@@ -42,7 +42,7 @@ defmodule MasterProxy.MixProject do
   defp deps do
     [
       {:plug_cowboy, "~> 2.0.0"},
-      {:phoenix, github: "phoenixframework/phoenix", branch: "v1.4", override: true},
+      {:phoenix, "~> 1.4"},
 
       # for hex.pm
       {:ex_doc, ">= 0.0.0", only: :dev},
